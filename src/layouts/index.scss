@@ -44,6 +44,7 @@ html {
 body {
   background-color: $bg-color;
   margin: 0;
+  font-family: $small-header-font;
 }
 
 p {
@@ -248,6 +249,7 @@ header {
           font-size: 1rem;
           background: rgba(255,255,255,0.025);
           color: white;
+          text-align: center;
           strong {
             font-weight: 500;
             font-size: 1.5rem;
@@ -265,9 +267,39 @@ header {
             font-size: 1.25rem;
             font-style: italic;
             font-weight: 100;
+            margin-top: 1rem;
           }
         }
       }
+    }
+  }
+  .about,
+  .hotel,
+  .venue,
+  .rsvp {
+    display: none;
+  }
+  footer {
+    background: white;
+    padding: 0 15rem;
+    height: 20rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+    color: $bg-color;
+    a {
+      text-decoration: none;
+      border-bottom: .1rem solid transparent;
+      transition: border .25s;
+      padding-bottom: .5rem;
+      &:hover {
+        border-color: $bg-color;
+      }
+    }
+    div {
+      font-size: 6rem;
+      font-family: $header-font;
     }
   }
 }
