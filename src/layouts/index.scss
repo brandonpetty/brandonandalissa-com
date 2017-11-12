@@ -207,4 +207,67 @@ header {
       }
     }
   }
+  .about {
+    background-color: $spot-color;
+  }
+  .timeline {
+    h1 {
+      font-family: "innocents_roughregular", serif;
+      color: #F2F4F4;
+      font-weight: normal;
+      margin: 0;
+      text-transform: none;
+      letter-spacing: 0;
+      font-size: 12rem;
+      line-height: 24rem;
+      text-align: center;
+      margin: 6rem 0;
+    }
+    .tile-wrapper {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      .tile {
+        width: 20%;
+        height: 20vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 7rem;
+        font-weight: bold;
+        font-family: $small-header-font;
+        text-transform: uppercase;
+        background: rgba(255,255,255,0.025);
+        background-size: cover;
+        background-position: center;
+        color: $spot-color;
+        object-fit: cover;
+        object-position: center;
+        &.event {
+          font-size: 1rem;
+          background: rgba(255,255,255,0.025);
+          color: white;
+          strong {
+            font-weight: 500;
+            font-size: 1.5rem;
+            opacity: .5;
+          }
+          q {
+            font-size: 3rem;
+            letter-spacing: .5rem;
+            &:before,
+            &:after {
+              display: none;
+            }
+          }
+          time {
+            font-size: 1.25rem;
+            font-style: italic;
+            font-weight: 100;
+          }
+        }
+      }
+    }
+  }
 }
