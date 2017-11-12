@@ -80,7 +80,7 @@ header {
 // home
 .home {
   .intro {
-    background-image: url('../images/header.jpg');
+    background-image: url('../../static/assets/header.jpg');
     height: 90rem;
     background-size: cover;
     background-position: center;
@@ -121,7 +121,7 @@ header {
     height: 90vh;
     min-height: 80rem;
     background-color: white;
-    background-image: url('../images/rsvp-background.jpg');
+    background-image: url('../../static/assets/rsvp-background.jpg');
     background-size: cover;
     background-position: center; 
     position: relative;
