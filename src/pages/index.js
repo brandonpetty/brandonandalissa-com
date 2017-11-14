@@ -23,15 +23,17 @@ const IndexPage = () => (
     <section className="about">
       <div className="card brandon">
         <div className="image">
-          <img src="" alt="" />
+          <img src="./assets/profile-brandon.jpg" alt="Brandon" />
         </div>
-        <p>Lorem ipsum blah blah blah blah. Lorem ipsum blah blah blah blah. Lorem ipsum blah blah blah blah.</p>
+        <strong>Brandon Petty</strong>
+        <p>The only son of Cheryl (Petty) and stepfather Jim Moats. Brandon grew up in a small town just outside of Charleston, West Virginia. In 2004 he joined The United States Air Force where he served his country for 5 years. After leaving the military Brandon moved Atlanta with his dog Charlie where he currently works as a software engineer.</p>
       </div>
       <div className="card alissa">
       <div className="image">
-        <img src="" alt="" />
+        <img src="./assets/profile-alissa.jpg" alt="Alissa" />
       </div>
-      <p>Lorem ipsum blah blah blah blah. Lorem ipsum blah blah blah blah. Lorem ipsum blah blah blah blah.</p>
+      <strong>Alissa Taylor</strong>
+      <p>Oldest daughter to Lonnie and Teresa Taylor. Alissa is grew up in Albertville, Alabama before attending Auburn University where she received a degree in business with a minor in engineering. After college she moved to Altanta with her dog Mason where she currently works as a software engineer.</p>
     </div>
     </section>
     <section className="timeline">
