@@ -11,13 +11,14 @@ const IndexPage = () => (
     <div className="overlay--white"></div>
       <div className="card">
         <h1>Our Wedding</h1>
-        <h3>May 05, 2018 - 2:00 PM</h3>
+        <h3>May 05, 2018 - 5:00 PM</h3>
         <hr />
         <p>
           <strong>Fendley Farmstead</strong>
           1287 Sardis Rd, Canton, GA 30114
         </p>
         <a href="">Please RSVP</a>
+        <p className="dry">*We request that guests refrain from bringing alcoholic beverages as this will be a dry wedding. Thank you for your understanding.</p>
       </div>
     </section>
     <section className="about">
