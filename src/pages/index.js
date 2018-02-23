@@ -17,11 +17,15 @@ const IndexPage = () => (
           <strong>Fendley Farmstead</strong>
           1287 Sardis Rd, Canton, GA 30114
         </p>
-        <a href="">Please RSVP</a>
-        <p className="dry">*We request that guests refrain from bringing alcoholic beverages as this will be a dry wedding. Thank you for your understanding.</p>
+        <a href="https://tendr.com/brandon-and-alissa-petty">Honeymoon Fund</a>
+        <span>or</span>
+        <a className="amazon" href="https://www.amazon.com/wedding/share/brandon-and-alissa">Amazon Registry</a>
+        <hr />
+        <p className="note">Hotel information available April 1,2018.</p>
+        <p className="note">We request that guests refrain from bringing any alcoholic beverages.</p>
       </div>
     </section>
-    <section className="about">
+    {/*<section className="about">
       <div className="card brandon">
         <div className="image">
           <img src="./assets/profile-brandon.jpg" alt="Brandon" />
@@ -111,10 +115,11 @@ const IndexPage = () => (
         </div>
       </form>
     </section>
+*/}
     <footer>
-      <a href="">Contact Us</a>
+      <a href="mailto:alissashaytaylor@gmail.com?subject=Wedding%20Inquiry">Contact Us</a>
       <div className="center">Brandon & Alissa</div>
-      <a href="">Leave Your Wishes</a>
+      <a href="mailto:alissashaytaylor@gmail.com?subject=Wedding%20Wishes">Leave Your Wishes</a>
     </footer>
   </div>
 )

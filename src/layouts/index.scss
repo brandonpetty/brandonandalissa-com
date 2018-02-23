@@ -139,7 +139,7 @@ header {
     .card {
       width: 100%;
       max-width: 800px;
-      min-height: 50rem;
+      min-height: 55rem;
       margin: 0 auto;
       background: #fff;
       box-sizing: border-box;
@@ -188,6 +188,12 @@ header {
         align-items: center;
         flex-direction: column;
       }
+      span {
+        margin-top: 2rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 1.4rem;
+      }
       a {
         margin-top: 20px;
         display: inline-block;
@@ -201,11 +207,27 @@ header {
         color: #000;
         padding: 18px 30px;
         border-radius: 0;
+        border: .2rem solid black;
         text-decoration: none;
         background: rgba(0,0,0,1);
         transition: all 200ms ease-in-out;
         width: 200px;
         color: #fff;
+        &:hover {
+          background: white;
+          color: black;
+        }
+        &.amazon {
+          background: white;
+          border: none;
+          color: black;
+          width: initial;
+          padding: 0;
+          text-decoration: underline;
+          &:hover {
+            text-decoration: none;
+          }
+        }
       }
       .dry {
         bottom: 21px;
@@ -216,6 +238,13 @@ header {
         margin: 0 auto;
         max-width: 40rem;
         text-align: center;position: absolute;
+      }
+      .note {
+        font-style: italic;
+        font-size: 1.2rem;
+        text-align: center;
+        width: 100%;
+        max-width: 50rem;
       }
     }
   }
