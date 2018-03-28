@@ -92,6 +92,10 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    @media only screen and (max-width: 1200px) {
+      min-height: auto;
+      max-height: 90rem;
+      }
     h1 {
       font-family: "innocents_roughregular", serif;
       color: #F2F4F4;
@@ -102,6 +106,10 @@ header {
       font-size: 19rem;
       line-height: 22rem;
       text-align: center;
+      @media only screen and (max-width: 1200px) {
+        font-size: 5rem;
+        line-height: 7rem;
+      }
     }
     h2 {
       font-family: "innocents_roughregular", serif;
@@ -113,6 +121,9 @@ header {
       font-size: 7rem;
       line-height: 8rem;
       text-align: center;
+      @media only screen and (max-width: 599px) {
+        font-size: 5rem;
+      }
     }
   }
   .rsvp-shortcut {
@@ -126,6 +137,9 @@ header {
     background-size: cover;
     background-position: center; 
     position: relative;
+    @media only screen and (max-width: 599px) {
+      min-height: 55rem;
+    }
     .overlay--white {
       width: 100%;
       height: 100%;
@@ -158,6 +172,9 @@ header {
         font-size: 3rem;
         color: black;
         margin: 0;
+        @media only screen and (max-width: 599px) {
+          text-align: center;
+        }
       }
       h3 {
         font-family: $small-header-font;
@@ -411,6 +428,12 @@ header {
     div {
       font-size: 6rem;
       font-family: $header-font;
+      @media only screen and (max-width: 1200px) {
+        padding: 2rem;
+        font-size: 4rem;
+        line-height: 4rem;
+        text-align: center;
+      }
     }
   }
 }
